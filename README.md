@@ -57,3 +57,29 @@ Default behavior
 
 If you don’t specify APP_MODE, it defaults to huggingface.
 
+---
+
+## Run with Gradio Interface
+
+If you prefer a simple web UI instead of the Flask version, you can use the Gradio app that’s included in this project.
+
+What It Does
+The Gradio version lets you:
+
+- Upload a PDF
+- Type your question
+- Choose which model to use by clicking a button
+  - Watsonx → uses IBM’s enterprise LLM
+  - Hugging Face → uses the open-source Falcon model
+- Get real-time answers and maintain a chat history — no need to reload or reprocess.
+
+How to Run the Gradio App
+
+```python
+python app_gradio.py
+```
+
+Then open your browser and go to:
+
+http://127.0.0.1:7860
+
