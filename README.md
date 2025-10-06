@@ -1,4 +1,4 @@
-# Chatbot-PDF-Question-Answering-Assistant
+# Document-Aware Chatbot with LangChain and RAG 
 
 
 A smart web application that lets you **upload a PDF**, and then **ask questions** or get **summaries** from its content.  
